@@ -118,3 +118,65 @@ a:hover {
 .showCvButton:hover {
     background: linear-gradient( white, rgb(215, 215, 215));
 }
+
+
+/* services section */
+
+.ServiceText {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Services {
+    margin: 80px 0px;
+}
+
+.TextSubHeading {
+    color: var(--primaryAccentColor);
+    font-size: 1.25rem;
+    letter-spacing: 0.4rem;
+}
+
+.TextHeading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.ServiceCards {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.ServiceCard {
+    border: 2px solid gray;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    margin: 15px;
+    padding: 40px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+.ServiceCard:hover {
+    background-color: white;
+    filter: drop-shadow(3px 3px 8px gray);
+}
+
+.ServiceIcon {
+    background-color: var(--primaryColor);
+    padding: 40px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.material-symbols-outlined {
+    font-size: 3rem;
+    color: white;
+}
+
+.ServiceFeatureIcon {
+    /* font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 200, 'opsz' 10; */
+    color: rgb(16, 1, 1);
+    font-size: 1rem;
+}
